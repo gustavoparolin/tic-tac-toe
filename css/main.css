@@ -181,6 +181,7 @@ main {
   flex: 1 0 auto;
   padding: 0.2em 1.5em 0;
   width: 100%;
+  background: dodgerblue;
 }
 
 main:after {
@@ -204,6 +205,10 @@ main:after {
 
 .container h1 {
   flex: 1 100%;
+  cursor: pointer;
+  font-family: 'Permanent Marker', cursive;
+  text-align: center;
+  color: white;
 }
 
 .content {
