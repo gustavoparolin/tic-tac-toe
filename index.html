@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -8,13 +7,12 @@
   <meta name="MobileOptimized" content="320">
   <meta name="viewport" content="width=device-width,minimum-scale=1,maximum-scale=1">
   <link rel="shortcut icon" href="img/favicon.png" />
-  <title>Parolin Template</title>
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Permanent+Marker|Sonsie+One" rel="stylesheet">
+  <title>Tic Tac Toe</title>
+  <link href="https://fonts.googleapis.com/css?family=Permanent+Marker|Sonsie+One|Open+Sans:300,400,600|Libre+Franklin" rel="stylesheet">
   <link href="css/main.css" rel="stylesheet" type="text/css">
   <link href="css/hover.css" rel="stylesheet" type="text/css">
+  <link href="css/board.css" rel="stylesheet" type="text/css">
   <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
-
 </head>
 
 <body>
@@ -28,8 +26,8 @@
   </header>
   <main>
     <div class="container">
-      <div class="text-zone">
-        <h1 aria-label="Tic Tac Toe">
+      <div class="title">
+        <h1 aria-label="Tic Tac Toe" id="board-title">
           <span class="hvr-buzz-out" aria-hidden="true">T</span>
           <span class="hvr-buzz-out" aria-hidden="true">i</span>
           <span class="hvr-buzz-out" aria-hidden="true">c</span>
@@ -68,9 +66,9 @@
           <h2 class='status-text'></h2>
         </div>
         <div class="score-board">
-          <h2 class='score-board-title'>Scoreboard</h2>
-          <p class='score score-player-name'><span>X</span><span>O</span></p>
-          <p class='score'><span class="score-x"></span><span class="score-o"></span></p>
+          <h2 class='score-board-title'>SCOREBOARD</h2>
+          <p class='score score-player-name'><span>X</span><span>Ties</span><span>O</span></p>
+          <p class='score'><span class="score-x"></span><span class="score-ties"></span><span class="score-o"></span></p>
         </div>
         <div class="button-frame">
           <button type="button" class="play-again button-on" name="play-again">PLAY AGAIN</button>
