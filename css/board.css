@@ -1,5 +1,6 @@
 main {
   background: DarkOrange;
+  /* background: rgba(240,110,50, 1); */
   /* background: dodgerblue; */
   /* background: chartreuse; */
   /* background: chocolate; */
@@ -26,6 +27,8 @@ main {
   flex-direction: column;
   align-items: center;
   align-content: center;
+  font-family: 'Permanent Marker', cursive;
+
 }
 
 .row {
@@ -88,12 +91,12 @@ main {
   border-bottom-right-radius: 10px;
 }
 
-.sidebar-header, .score-board, .button-frame button {
+.score-board-header, .score-board, .button-frame button {
   border: 4px solid black;
   border-radius: 10px;
   padding: 4px;
   background: white;
-  margin-top: 10px;
+  margin-bottom: 10px;
   font-family: 'Libre Franklin', sans-serif;
 }
 .status-text {
@@ -105,11 +108,16 @@ main {
 .score {
   display: flex;
   flex-direction: row;
+  margin: 0;
 }
 .score span {
   flex-grow: 1;
   text-align: center;
   font-weight: bold;
+}
+.score-player-name{
+  margin: 1em 0 .3em;
+  font-family: 'Permanent Marker', cursive;
 }
 .button-frame button {
   width: 100%;

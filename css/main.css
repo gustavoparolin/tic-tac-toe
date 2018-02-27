@@ -9,7 +9,7 @@ html {
   height: 100%;
   color: #404040;
   font: 400 1em/1.4 'Open Sans', sans-serif;
-  text-rendering: optimizeLegibility;
+  /* text-rendering: optimizeLegibility; */
 }
 
 body {
@@ -58,7 +58,7 @@ h1 {
 
 h2 {
   font-size: 1.333em;
-  margin-bottom: 0.2em;
+  margin: 0.2em 0;
 }
 
 h2, h3 {
@@ -162,7 +162,11 @@ header, footer {
   white-space: nowrap;
 }
 
-@media (max-width:320px) {
+@media (max-width:639px) {
+  #board-title {
+    font-size: 1.1em;
+  }
+
   .title {
     font-size: 1.2em;
   }
