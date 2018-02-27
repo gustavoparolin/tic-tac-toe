@@ -48,17 +48,21 @@ main {
   background: white;
   transition: content 1s, background 1s;
 }
-.active:hover {
-  background: black;
+
+@media (hover: hover) {
+  .active:hover {
+    background: black;
+  }
+  .x .active:hover:after {
+    content: "X";
+    color: white;
+  }
+  .o .active:hover:after{
+    content: "O";
+    color: white;
+  }
 }
-.x .active:hover:after {
-  content: "X";
-  color: white;
-}
-.o .active:hover:after{
-  content: "O";
-  color: white;
-}
+
 .tile-off {
   background: black;
 }
