@@ -3,7 +3,7 @@ Tic Tac Toe game using JavaScript and FlexBox
 
 ![Tic Tac Toe](/img/screen_cap.png)
 
-## Play the game [here](http://www.parolin.net/tic-tac-toe/)
+## Play the game [here](http://www.parolin.net/project/tic-tac-toe/)
 
 ## Built With
 * Tic Tac Toe board in HTML5 and CSS Flex Box
